@@ -28,6 +28,7 @@ export const reducer = (state, action) => {
           if (partner.ofstedRating === item) {
             Data.push(partner);
           }
+          return Data;
         })
       );
       return {

@@ -49,6 +49,7 @@ const PartnersView = () => {
         value: partner.ofstedRating,
       });
     }
+    return options;
   });
 
   const handleName = e => {
